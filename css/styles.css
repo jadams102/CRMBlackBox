@@ -1,0 +1,148 @@
+.panel {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+}
+
+.panel-bg {
+  background-image: url('https://i.imgur.com/SHmwMnN.jpg');
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h5, h6, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 5.5vw;
+  color: #69BE41;
+  margin-bottom: -1vh;
+}
+
+h2 {
+  font-size: 5vw;
+  color: #FF9900;
+  margin-top: -1.5vh;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+p {
+  font-weight: 300;
+  font-size: 2vw;
+}
+
+.subHead {
+  margin-top: 0px;
+  margin-bottom: .5vh;
+  color: black;
+}
+
+#rule {
+  width: 37vw;
+  height: 0.1vh;
+  background-color: lightgray;
+}
+
+.info {
+  width: 39vw;
+  font-size: 1.5vw;
+}
+
+.green-box {
+  display: inline-block;
+  padding-top: 0.3vh;
+  margin-top: 0.9vh;
+  background-color: #69BE41;
+  width: 6vw;
+  border-radius: 4px;
+}
+
+.graph {
+  display: inline-block;
+}
+
+.graph p {
+  font-size: 1.3vw;
+  font-weight: 500;
+  margin-bottom: -1.0vh;
+  margin-top: 0.2vh;
+}
+
+.bar {
+  display: inline-block;
+  background-color: lightgray;
+  height: 0.6vh;
+  width: 24vw;
+  border-radius: 10px;
+  margin-bottom: -0.5vh;
+}
+
+h5 {
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: 2.5vw;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.green-bar, .orange-bar, .red-bar {
+  height: 100%;
+  border-radius: 10px
+}
+
+.green-bar {
+  background-color: #69BE41;
+  width: 90%;
+}
+
+.orange-bar {
+  background-color: #FF9900;
+  width: 60%;
+}
+
+.red-bar {
+  background-color: #BE4141;
+  width: 30%;
+}
+
+#lg-bottle {
+  display: inline-block;
+  float: right;
+  width: 14.5vw;
+  margin-right: -4vw;
+  filter: drop-shadow(0.5vw 0.5vh 3px rgba(136, 136, 136, 0.521));
+}
+
+#sm-bottle {
+  display: inline-block;
+  float: right;
+  margin-top: 5vw;
+  width: 10.5vw;
+  margin-right: 7vw;
+  filter: drop-shadow(0.5vw 0.5vh 3px rgba(95, 95, 95, 0.521));
+}
+
+#fda-img, #natural-img, #gmp-img {
+  margin-top: 1.6vw;
+  display: inline-block;
+  height: 7vw;
+  margin-right: 1vw;
+}
+
+#natural-img {
+  margin-right: 0px;
+}
+
+#text-seal {
+  height: 11vw;
+  display: inline-block;
+}
+
+#text-seal h6 {
+margin-top: 0px;
+}
